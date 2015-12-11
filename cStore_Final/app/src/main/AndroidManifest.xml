@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="mobileappdev.cstore" >
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/food_logo"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Holo" >
+        <activity
+            android:name=".main"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".splash"
+            android:label="HungryDeis" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".sherman"
+            android:label="@string/title_activity_sherman" >
+        </activity>
+        <activity
+            android:name=".Usdan"
+            android:label="@string/title_activity_usdan" >
+        </activity>
+        <activity
+            android:name=".admin_display"
+            android:label="@string/title_activity_admin_display" >
+        </activity>
+        <activity
+            android:name=".display"
+            android:label="@string/title_activity_display" >
+        </activity>
+        <activity
+            android:name=".browse"
+            android:label="@string/title_activity_browse" >
+        </activity>
+        <activity
+            android:name=".additem"
+            android:label="@string/title_activity_additem" >
+        </activity>
+        <activity
+            android:name=".edititem"
+            android:label="@string/title_activity_edititem" >
+        </activity>
+        <activity
+            android:name=".admin_login"
+            android:label="admin_login" >
+        </activity>
+        <activity
+            android:name=".AsiaWok"
+            android:label="AsiaWok Menu" >
+        </activity>
+        <activity
+            android:name=".mulan"
+            android:label="@string/title_activity_mulan" >
+        </activity>
+        <activity
+            android:name=".pho"
+            android:label="@string/title_activity_pho" >
+        </activity>
+    </application>
+
+</manifest>

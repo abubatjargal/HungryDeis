@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">c-Store</string>
+    <string name="action_settings">Settings</string>
+    <string name="username">Username:</string>
+    <string name="title_activity_display">Display</string>
+    <string name="title_activity_admin_display">admin_display</string>
+    <string name="search_bar">Item Name, BarCode, or Brand</string>
+    <string name="title_activity_sherman">sherman</string>
+    <string name="title_activity_usdan">usdan</string>
+    <string name="schedule">Schedule</string>
+    <string name="main_logo">Main_Activity_Header</string>
+    <string name="title_activity_browse">browse</string>
+    <string name="menuAct">Add</string>
+    <string name="title_activity_additem">additem</string>
+    <string name="title_activity_edititem">edititem</string>
+    <string name="admin_menu_item">Admin Login</string>
+    <string name="admin_menu_home">Home</string>
+    <string name="title_activity_mulan">Mulan Menu</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_pho">Pho and Sprice Menu</string>
+</resources>

@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".main">
+    <item android:id="@+id/admin_menu_login" android:title="@string/admin_menu_item"
+        android:orderInCategory="100" />
+    <item android:id="@+id/mulan" android:title="Call: Mulan"
+        android:orderInCategory="100" />
+    <item android:id="@+id/pho" android:title="Call: Pho And Spice"
+        android:orderInCategory="100" />
+    <item android:id="@+id/wok" android:title="Call: Asia Wok"
+        android:orderInCategory="100" />
+
+    <item android:id="@+id/Mmulan" android:title="Menu: Mulan"
+        android:orderInCategory="100" />
+    <item android:id="@+id/Mpho" android:title="Menu: Pho And Spice"
+        android:orderInCategory="100" />
+    <item android:id="@+id/Mwok" android:title="Menu: Asia Wok"
+        android:orderInCategory="100" />
+</menu>
